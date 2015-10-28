@@ -25,7 +25,7 @@
 -(void)setValuesWithDictionary:(NSDictionary*)dictionary{
     
     self.urlImage = [dictionary valueForKeyPath:@"images.thumbnail.url"];
-    self.numberLikes = [dictionary valueForKeyPath:@"like.count"];
+    self.numberLikes = [dictionary valueForKeyPath:@"likes.count"];
     self.username = [dictionary valueForKeyPath:@"user.username"];
 
     
