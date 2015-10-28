@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		25B080A53D6E3096DA76536C /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1769C971848177716E4BB06F /* libPods.a */; };
 		A1920D0F1BE1491E00251538 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A1920D0E1BE1491E00251538 /* main.m */; };
 		A1920D121BE1491E00251538 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A1920D111BE1491E00251538 /* AppDelegate.m */; };
 		A1920D151BE1491E00251538 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A1920D141BE1491E00251538 /* ViewController.m */; };
@@ -36,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1769C971848177716E4BB06F /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1920D0A1BE1491E00251538 /* MMChicfyTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MMChicfyTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1920D0E1BE1491E00251538 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A1920D101BE1491E00251538 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -53,6 +55,8 @@
 		A1920D311BE1491F00251538 /* MMChicfyTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MMChicfyTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1920D351BE1491F00251538 /* MMChicfyTestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MMChicfyTestUITests.m; sourceTree = "<group>"; };
 		A1920D371BE1491F00251538 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E638E5DDAD7B5BEB6E9D9632 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		F7EBE6EB333664DC5C7C291E /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				25B080A53D6E3096DA76536C /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -80,6 +85,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		54301660D22D3E1E240AD6E0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1769C971848177716E4BB06F /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		609466B5501803858A3B594E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E638E5DDAD7B5BEB6E9D9632 /* Pods.debug.xcconfig */,
+				F7EBE6EB333664DC5C7C291E /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		A1920D011BE1491E00251538 = {
 			isa = PBXGroup;
 			children = (
@@ -87,6 +109,8 @@
 				A1920D291BE1491F00251538 /* MMChicfyTestTests */,
 				A1920D341BE1491F00251538 /* MMChicfyTestUITests */,
 				A1920D0B1BE1491E00251538 /* Products */,
+				609466B5501803858A3B594E /* Pods */,
+				54301660D22D3E1E240AD6E0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -150,9 +174,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A1920D3A1BE1491F00251538 /* Build configuration list for PBXNativeTarget "MMChicfyTest" */;
 			buildPhases = (
+				AF567BE2792A1124C5F5CBB8 /* Check Pods Manifest.lock */,
 				A1920D061BE1491E00251538 /* Sources */,
 				A1920D071BE1491E00251538 /* Frameworks */,
 				A1920D081BE1491E00251538 /* Resources */,
+				E148DF95D34B2542F5BC159E /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -267,6 +293,39 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		AF567BE2792A1124C5F5CBB8 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E148DF95D34B2542F5BC159E /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		A1920D061BE1491E00251538 /* Sources */ = {
@@ -415,6 +474,7 @@
 		};
 		A1920D3B1BE1491F00251538 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E638E5DDAD7B5BEB6E9D9632 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = MMChicfyTest/Info.plist;
@@ -426,6 +486,7 @@
 		};
 		A1920D3C1BE1491F00251538 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F7EBE6EB333664DC5C7C291E /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = MMChicfyTest/Info.plist;
@@ -502,6 +563,7 @@
 				A1920D3C1BE1491F00251538 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A1920D3D1BE1491F00251538 /* Build configuration list for PBXNativeTarget "MMChicfyTestTests" */ = {
 			isa = XCConfigurationList;
@@ -510,6 +572,7 @@
 				A1920D3F1BE1491F00251538 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A1920D401BE1491F00251538 /* Build configuration list for PBXNativeTarget "MMChicfyTestUITests" */ = {
 			isa = XCConfigurationList;
@@ -518,6 +581,7 @@
 				A1920D421BE1491F00251538 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
