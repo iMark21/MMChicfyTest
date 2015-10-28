@@ -17,6 +17,8 @@
 		A1920D201BE1491E00251538 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1920D1E1BE1491E00251538 /* LaunchScreen.storyboard */; };
 		A1920D2B1BE1491F00251538 /* MMChicfyTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A1920D2A1BE1491F00251538 /* MMChicfyTestTests.m */; };
 		A1920D361BE1491F00251538 /* MMChicfyTestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A1920D351BE1491F00251538 /* MMChicfyTestUITests.m */; };
+		A198D8571BE14E5A00542CA5 /* MMAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = A198D8561BE14E5A00542CA5 /* MMAPI.m */; settings = {ASSET_TAGS = (); }; };
+		A198D85A1BE15FAD00542CA5 /* MMMediaItem.m in Sources */ = {isa = PBXBuildFile; fileRef = A198D8591BE15FAD00542CA5 /* MMMediaItem.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +57,10 @@
 		A1920D311BE1491F00251538 /* MMChicfyTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MMChicfyTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1920D351BE1491F00251538 /* MMChicfyTestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MMChicfyTestUITests.m; sourceTree = "<group>"; };
 		A1920D371BE1491F00251538 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A198D8551BE14E5A00542CA5 /* MMAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMAPI.h; sourceTree = "<group>"; };
+		A198D8561BE14E5A00542CA5 /* MMAPI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMAPI.m; sourceTree = "<group>"; };
+		A198D8581BE15FAD00542CA5 /* MMMediaItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMMediaItem.h; sourceTree = "<group>"; };
+		A198D8591BE15FAD00542CA5 /* MMMediaItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMMediaItem.m; sourceTree = "<group>"; };
 		E638E5DDAD7B5BEB6E9D9632 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		F7EBE6EB333664DC5C7C291E /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -137,6 +143,10 @@
 				A1920D211BE1491E00251538 /* Info.plist */,
 				A1920D191BE1491E00251538 /* MMChicfyTest.xcdatamodeld */,
 				A1920D0D1BE1491E00251538 /* Supporting Files */,
+				A198D8551BE14E5A00542CA5 /* MMAPI.h */,
+				A198D8561BE14E5A00542CA5 /* MMAPI.m */,
+				A198D8581BE15FAD00542CA5 /* MMMediaItem.h */,
+				A198D8591BE15FAD00542CA5 /* MMMediaItem.m */,
 			);
 			path = MMChicfyTest;
 			sourceTree = "<group>";
@@ -332,6 +342,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A198D8571BE14E5A00542CA5 /* MMAPI.m in Sources */,
+				A198D85A1BE15FAD00542CA5 /* MMMediaItem.m in Sources */,
 				A1920D151BE1491E00251538 /* ViewController.m in Sources */,
 				A1920D1B1BE1491E00251538 /* MMChicfyTest.xcdatamodeld in Sources */,
 				A1920D121BE1491E00251538 /* AppDelegate.m in Sources */,
