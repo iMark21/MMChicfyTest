@@ -1,0 +1,538 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A1920D0F1BE1491E00251538 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A1920D0E1BE1491E00251538 /* main.m */; };
+		A1920D121BE1491E00251538 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A1920D111BE1491E00251538 /* AppDelegate.m */; };
+		A1920D151BE1491E00251538 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A1920D141BE1491E00251538 /* ViewController.m */; };
+		A1920D181BE1491E00251538 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1920D161BE1491E00251538 /* Main.storyboard */; };
+		A1920D1B1BE1491E00251538 /* MMChicfyTest.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A1920D191BE1491E00251538 /* MMChicfyTest.xcdatamodeld */; };
+		A1920D1D1BE1491E00251538 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1920D1C1BE1491E00251538 /* Assets.xcassets */; };
+		A1920D201BE1491E00251538 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1920D1E1BE1491E00251538 /* LaunchScreen.storyboard */; };
+		A1920D2B1BE1491F00251538 /* MMChicfyTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A1920D2A1BE1491F00251538 /* MMChicfyTestTests.m */; };
+		A1920D361BE1491F00251538 /* MMChicfyTestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A1920D351BE1491F00251538 /* MMChicfyTestUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A1920D271BE1491F00251538 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A1920D021BE1491E00251538 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A1920D091BE1491E00251538;
+			remoteInfo = MMChicfyTest;
+		};
+		A1920D321BE1491F00251538 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A1920D021BE1491E00251538 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A1920D091BE1491E00251538;
+			remoteInfo = MMChicfyTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A1920D0A1BE1491E00251538 /* MMChicfyTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MMChicfyTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1920D0E1BE1491E00251538 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A1920D101BE1491E00251538 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A1920D111BE1491E00251538 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A1920D131BE1491E00251538 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A1920D141BE1491E00251538 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A1920D171BE1491E00251538 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A1920D1A1BE1491E00251538 /* MMChicfyTest.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MMChicfyTest.xcdatamodel; sourceTree = "<group>"; };
+		A1920D1C1BE1491E00251538 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A1920D1F1BE1491E00251538 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A1920D211BE1491E00251538 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A1920D261BE1491F00251538 /* MMChicfyTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MMChicfyTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1920D2A1BE1491F00251538 /* MMChicfyTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MMChicfyTestTests.m; sourceTree = "<group>"; };
+		A1920D2C1BE1491F00251538 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A1920D311BE1491F00251538 /* MMChicfyTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MMChicfyTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1920D351BE1491F00251538 /* MMChicfyTestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MMChicfyTestUITests.m; sourceTree = "<group>"; };
+		A1920D371BE1491F00251538 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A1920D071BE1491E00251538 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1920D231BE1491F00251538 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1920D2E1BE1491F00251538 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A1920D011BE1491E00251538 = {
+			isa = PBXGroup;
+			children = (
+				A1920D0C1BE1491E00251538 /* MMChicfyTest */,
+				A1920D291BE1491F00251538 /* MMChicfyTestTests */,
+				A1920D341BE1491F00251538 /* MMChicfyTestUITests */,
+				A1920D0B1BE1491E00251538 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A1920D0B1BE1491E00251538 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A1920D0A1BE1491E00251538 /* MMChicfyTest.app */,
+				A1920D261BE1491F00251538 /* MMChicfyTestTests.xctest */,
+				A1920D311BE1491F00251538 /* MMChicfyTestUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A1920D0C1BE1491E00251538 /* MMChicfyTest */ = {
+			isa = PBXGroup;
+			children = (
+				A1920D101BE1491E00251538 /* AppDelegate.h */,
+				A1920D111BE1491E00251538 /* AppDelegate.m */,
+				A1920D131BE1491E00251538 /* ViewController.h */,
+				A1920D141BE1491E00251538 /* ViewController.m */,
+				A1920D161BE1491E00251538 /* Main.storyboard */,
+				A1920D1C1BE1491E00251538 /* Assets.xcassets */,
+				A1920D1E1BE1491E00251538 /* LaunchScreen.storyboard */,
+				A1920D211BE1491E00251538 /* Info.plist */,
+				A1920D191BE1491E00251538 /* MMChicfyTest.xcdatamodeld */,
+				A1920D0D1BE1491E00251538 /* Supporting Files */,
+			);
+			path = MMChicfyTest;
+			sourceTree = "<group>";
+		};
+		A1920D0D1BE1491E00251538 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A1920D0E1BE1491E00251538 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A1920D291BE1491F00251538 /* MMChicfyTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				A1920D2A1BE1491F00251538 /* MMChicfyTestTests.m */,
+				A1920D2C1BE1491F00251538 /* Info.plist */,
+			);
+			path = MMChicfyTestTests;
+			sourceTree = "<group>";
+		};
+		A1920D341BE1491F00251538 /* MMChicfyTestUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A1920D351BE1491F00251538 /* MMChicfyTestUITests.m */,
+				A1920D371BE1491F00251538 /* Info.plist */,
+			);
+			path = MMChicfyTestUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A1920D091BE1491E00251538 /* MMChicfyTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A1920D3A1BE1491F00251538 /* Build configuration list for PBXNativeTarget "MMChicfyTest" */;
+			buildPhases = (
+				A1920D061BE1491E00251538 /* Sources */,
+				A1920D071BE1491E00251538 /* Frameworks */,
+				A1920D081BE1491E00251538 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MMChicfyTest;
+			productName = MMChicfyTest;
+			productReference = A1920D0A1BE1491E00251538 /* MMChicfyTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A1920D251BE1491F00251538 /* MMChicfyTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A1920D3D1BE1491F00251538 /* Build configuration list for PBXNativeTarget "MMChicfyTestTests" */;
+			buildPhases = (
+				A1920D221BE1491F00251538 /* Sources */,
+				A1920D231BE1491F00251538 /* Frameworks */,
+				A1920D241BE1491F00251538 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A1920D281BE1491F00251538 /* PBXTargetDependency */,
+			);
+			name = MMChicfyTestTests;
+			productName = MMChicfyTestTests;
+			productReference = A1920D261BE1491F00251538 /* MMChicfyTestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A1920D301BE1491F00251538 /* MMChicfyTestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A1920D401BE1491F00251538 /* Build configuration list for PBXNativeTarget "MMChicfyTestUITests" */;
+			buildPhases = (
+				A1920D2D1BE1491F00251538 /* Sources */,
+				A1920D2E1BE1491F00251538 /* Frameworks */,
+				A1920D2F1BE1491F00251538 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A1920D331BE1491F00251538 /* PBXTargetDependency */,
+			);
+			name = MMChicfyTestUITests;
+			productName = MMChicfyTestUITests;
+			productReference = A1920D311BE1491F00251538 /* MMChicfyTestUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A1920D021BE1491E00251538 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Juan Miguel Marqués Morilla";
+				TargetAttributes = {
+					A1920D091BE1491E00251538 = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+					A1920D251BE1491F00251538 = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = A1920D091BE1491E00251538;
+					};
+					A1920D301BE1491F00251538 = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = A1920D091BE1491E00251538;
+					};
+				};
+			};
+			buildConfigurationList = A1920D051BE1491E00251538 /* Build configuration list for PBXProject "MMChicfyTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A1920D011BE1491E00251538;
+			productRefGroup = A1920D0B1BE1491E00251538 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A1920D091BE1491E00251538 /* MMChicfyTest */,
+				A1920D251BE1491F00251538 /* MMChicfyTestTests */,
+				A1920D301BE1491F00251538 /* MMChicfyTestUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A1920D081BE1491E00251538 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1920D201BE1491E00251538 /* LaunchScreen.storyboard in Resources */,
+				A1920D1D1BE1491E00251538 /* Assets.xcassets in Resources */,
+				A1920D181BE1491E00251538 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1920D241BE1491F00251538 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1920D2F1BE1491F00251538 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A1920D061BE1491E00251538 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1920D151BE1491E00251538 /* ViewController.m in Sources */,
+				A1920D1B1BE1491E00251538 /* MMChicfyTest.xcdatamodeld in Sources */,
+				A1920D121BE1491E00251538 /* AppDelegate.m in Sources */,
+				A1920D0F1BE1491E00251538 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1920D221BE1491F00251538 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1920D2B1BE1491F00251538 /* MMChicfyTestTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1920D2D1BE1491F00251538 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1920D361BE1491F00251538 /* MMChicfyTestUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A1920D281BE1491F00251538 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A1920D091BE1491E00251538 /* MMChicfyTest */;
+			targetProxy = A1920D271BE1491F00251538 /* PBXContainerItemProxy */;
+		};
+		A1920D331BE1491F00251538 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A1920D091BE1491E00251538 /* MMChicfyTest */;
+			targetProxy = A1920D321BE1491F00251538 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A1920D161BE1491E00251538 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A1920D171BE1491E00251538 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A1920D1E1BE1491E00251538 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A1920D1F1BE1491E00251538 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A1920D381BE1491F00251538 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A1920D391BE1491F00251538 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A1920D3B1BE1491F00251538 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MMChicfyTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = iMark.MMChicfyTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A1920D3C1BE1491F00251538 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MMChicfyTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = iMark.MMChicfyTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A1920D3E1BE1491F00251538 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MMChicfyTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = iMark.MMChicfyTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MMChicfyTest.app/MMChicfyTest";
+			};
+			name = Debug;
+		};
+		A1920D3F1BE1491F00251538 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MMChicfyTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = iMark.MMChicfyTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MMChicfyTest.app/MMChicfyTest";
+			};
+			name = Release;
+		};
+		A1920D411BE1491F00251538 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MMChicfyTestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = iMark.MMChicfyTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MMChicfyTest;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		A1920D421BE1491F00251538 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MMChicfyTestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = iMark.MMChicfyTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MMChicfyTest;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A1920D051BE1491E00251538 /* Build configuration list for PBXProject "MMChicfyTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1920D381BE1491F00251538 /* Debug */,
+				A1920D391BE1491F00251538 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A1920D3A1BE1491F00251538 /* Build configuration list for PBXNativeTarget "MMChicfyTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1920D3B1BE1491F00251538 /* Debug */,
+				A1920D3C1BE1491F00251538 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A1920D3D1BE1491F00251538 /* Build configuration list for PBXNativeTarget "MMChicfyTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1920D3E1BE1491F00251538 /* Debug */,
+				A1920D3F1BE1491F00251538 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A1920D401BE1491F00251538 /* Build configuration list for PBXNativeTarget "MMChicfyTestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1920D411BE1491F00251538 /* Debug */,
+				A1920D421BE1491F00251538 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		A1920D191BE1491E00251538 /* MMChicfyTest.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				A1920D1A1BE1491E00251538 /* MMChicfyTest.xcdatamodel */,
+			);
+			currentVersion = A1920D1A1BE1491E00251538 /* MMChicfyTest.xcdatamodel */;
+			path = MMChicfyTest.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = A1920D021BE1491E00251538 /* Project object */;
+}
