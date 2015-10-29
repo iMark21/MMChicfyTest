@@ -7,6 +7,7 @@
 //
 
 #import "MMAPI.h"
+#import <InstagramSimpleOAuth/InstagramSimpleOAuth.h>
 
 @implementation MMAPI
 
@@ -49,6 +50,18 @@
         
     }];
     
+}
+
+- (void)JSONArraycompletionBlock:(void (^)(NSArray *JSONArray, NSError *error)) block {
+    
+    
+    
+    
+
+    
+    
+
+
 }
 
 @end

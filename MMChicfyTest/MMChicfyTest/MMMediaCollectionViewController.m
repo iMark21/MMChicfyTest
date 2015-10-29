@@ -35,6 +35,7 @@
     __weak MMMediaCollectionViewController *weakSelf = self;
     
     
+    
     [self.collectionView addInfiniteScrollingWithActionHandler:^{
         [weakSelf loadContent];
         [weakSelf.collectionView.infiniteScrollingView stopAnimating];
@@ -50,6 +51,8 @@
     
     [self setTitle:@"PHOTO GALLERY"];
     
+    self.navigationItem.hidesBackButton = YES;
+    
     [self loadContent];
     
 }
@@ -62,7 +65,10 @@
 -(void)loadContent{
     
     [SVProgressHUD showWithStatus:@"Cargando" maskType:SVProgressHUDMaskTypeGradient];
-    [[MMAPI sharedInstance]JSONArray:[NSURL URLWithString:@"https://api.instagram.com/v1/media/popular?access_token=177762900.d89c44c.8a6c90a3edf54040b080cfc8af6b4fe2"] completionBlock:^(NSArray *JSONArray, NSError *error) {
+    
+    NSString *urlStringRequest = [NSString stringWithFormat:@"https://api.instagram.com/v1/media/popular?access_token=%@",self.accesToken];
+    
+    [[MMAPI sharedInstance]JSONArray:[NSURL URLWithString:urlStringRequest] completionBlock:^(NSArray *JSONArray, NSError *error) {
  
         dispatch_async(dispatch_get_main_queue(), ^{
             

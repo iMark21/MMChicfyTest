@@ -15,6 +15,8 @@
 
 @property (nonatomic,strong) NSArray *mediaItems;
 
+@property (nonatomic,strong) NSString *accesToken;
+
 @property (nonatomic,strong) MMMediaCollectionViewDelegate *collectionViewDelegate;
 
 @end
