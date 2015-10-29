@@ -9,6 +9,7 @@
 #import "MMMediaCollectionViewDelegate.h"
 #import "MMMediaItem.h"
 #import "MMMediaCollectionViewCell.h"
+#import "MMMediaDetailViewController.h"
 
 @interface MMMediaCollectionViewDelegate ()
 
@@ -48,7 +49,9 @@
    
     if (items.count > 0) {
         
-        NSMutableArray *mediaItems = [NSMutableArray new];
+        if (self.mediaItems== nil) {
+            self.mediaItems = [NSMutableArray new];
+        }
         
         for (id item in [items valueForKey:@"data"]) {
             
@@ -59,13 +62,13 @@
                 
                     MMMediaItem *photo = [[MMMediaItem alloc]initWithDictionary:item];
                     
-                    [mediaItems addObject:photo];
+                    [self.mediaItems addObject:photo];
             }
             
             
         }
         
-        NSArray *sortedArray = [mediaItems sortedArrayUsingComparator:^NSComparisonResult(MMMediaItem *a, MMMediaItem *b) {
+        NSArray *sortedArray = [self.mediaItems sortedArrayUsingComparator:^NSComparisonResult(MMMediaItem *a, MMMediaItem *b) {
             return [b.numberLikes compare:a.numberLikes];
         }];
         
@@ -118,27 +121,17 @@
 - (void)collectionView:(UICollectionView *)collectionView didSelectItemAtIndexPath:(NSIndexPath *)indexPath
 {
     
+    //MMMediaItem *media = media;
     
-//    [[HTItemsLauncher sharedInstance] launchItem:[self.items objectAtIndex:indexPath.row] fromController:self.controller completition:^(id result, NSError *error) {
-//        
-//        
-//    }];
-//    for (id item in [JSONArray valueForKey:@"data"]) {
-//        
-//        if ([item isKindOfClass:[NSDictionary class]]) {
-//            
-//            dispatch_async(dispatch_get_main_queue(), ^{
-//                
-//                
-//                
-//                
-//                MMMediaItem *photo = [[MMMediaItem alloc]initWithDictionary:item];
-//                
-//            });
-//            
-//        }
-//        
-//    }
+  
+    MMMediaItem *media = [self.items objectAtIndex:indexPath.row];
+    
+    MMMediaDetailViewController *view = [[MMMediaDetailViewController alloc] initWithNibName:nil bundle:nil];
+    
+    view.mediaItem = media;
+    
+    
+    [self.controller.navigationController pushViewController:view animated:YES];
     
 }
 

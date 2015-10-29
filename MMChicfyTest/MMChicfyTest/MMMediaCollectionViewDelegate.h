@@ -16,13 +16,15 @@
 @property (nonatomic,weak) UIViewController *controller;
 
 @property (nonatomic,strong) NSArray *items;
+@property (nonatomic,strong) NSMutableArray *mediaItems;
 
-@property (nonatomic,strong) NSString *customGridCellClass;
+
 
 
 -(instancetype)initWithCollectionView:(UICollectionView*)collectionView controller:(UIViewController*)controller;
 
 -(void)reloadData;
+
 -(void)reloadDataWithItems:(NSArray*)items;
 
 @end

@@ -11,8 +11,10 @@
 @interface MMMediaItem : NSObject
 
 @property (nonatomic,strong) NSString *urlImage;
-@property (nonatomic,strong) NSString *numberLikes;
 @property (nonatomic,strong) NSString *username;
+@property (nonatomic,strong) NSString *numberLikes;
+@property (nonatomic,strong) NSString *urlImageHD;
+//standard_resolution
 
 
 -(instancetype)initWithDictionary:(NSDictionary*)dictionary;

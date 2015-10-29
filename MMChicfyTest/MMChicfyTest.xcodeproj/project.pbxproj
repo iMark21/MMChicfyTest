@@ -27,6 +27,8 @@
 		A198D86E1BE1832800542CA5 /* MMCustomAppearance.m in Sources */ = {isa = PBXBuildFile; fileRef = A198D86D1BE1832800542CA5 /* MMCustomAppearance.m */; settings = {ASSET_TAGS = (); }; };
 		A198D8701BE1848C00542CA5 /* placeholder.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A198D86F1BE1848C00542CA5 /* placeholder.jpg */; settings = {ASSET_TAGS = (); }; };
 		A198D8721BE185A800542CA5 /* heart298.png in Resources */ = {isa = PBXBuildFile; fileRef = A198D8711BE185A800542CA5 /* heart298.png */; settings = {ASSET_TAGS = (); }; };
+		A198D87B1BE19D4F00542CA5 /* MMMediaDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A198D8791BE19D4F00542CA5 /* MMMediaDetailViewController.m */; settings = {ASSET_TAGS = (); }; };
+		A198D87C1BE19D4F00542CA5 /* MMMediaDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A198D87A1BE19D4F00542CA5 /* MMMediaDetailViewController.xib */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -81,6 +83,9 @@
 		A198D86D1BE1832800542CA5 /* MMCustomAppearance.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMCustomAppearance.m; sourceTree = "<group>"; };
 		A198D86F1BE1848C00542CA5 /* placeholder.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = placeholder.jpg; sourceTree = "<group>"; };
 		A198D8711BE185A800542CA5 /* heart298.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = heart298.png; sourceTree = "<group>"; };
+		A198D8781BE19D4F00542CA5 /* MMMediaDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMMediaDetailViewController.h; sourceTree = "<group>"; };
+		A198D8791BE19D4F00542CA5 /* MMMediaDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMMediaDetailViewController.m; sourceTree = "<group>"; };
+		A198D87A1BE19D4F00542CA5 /* MMMediaDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MMMediaDetailViewController.xib; sourceTree = "<group>"; };
 		E638E5DDAD7B5BEB6E9D9632 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		F7EBE6EB333664DC5C7C291E /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -175,6 +180,9 @@
 				A198D8661BE1680900542CA5 /* MMMediaCollectionViewCell.m */,
 				A198D86C1BE1832800542CA5 /* MMCustomAppearance.h */,
 				A198D86D1BE1832800542CA5 /* MMCustomAppearance.m */,
+				A198D8781BE19D4F00542CA5 /* MMMediaDetailViewController.h */,
+				A198D8791BE19D4F00542CA5 /* MMMediaDetailViewController.m */,
+				A198D87A1BE19D4F00542CA5 /* MMMediaDetailViewController.xib */,
 			);
 			path = MMChicfyTest;
 			sourceTree = "<group>";
@@ -317,6 +325,7 @@
 				A1920D201BE1491E00251538 /* LaunchScreen.storyboard in Resources */,
 				A198D8721BE185A800542CA5 /* heart298.png in Resources */,
 				A198D8701BE1848C00542CA5 /* placeholder.jpg in Resources */,
+				A198D87C1BE19D4F00542CA5 /* MMMediaDetailViewController.xib in Resources */,
 				A198D8691BE16AFF00542CA5 /* thumbs4.png in Resources */,
 				A1920D1D1BE1491E00251538 /* Assets.xcassets in Resources */,
 				A198D86B1BE1813800542CA5 /* Background-Faded-Old.jpg in Resources */,
@@ -378,6 +387,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A198D87B1BE19D4F00542CA5 /* MMMediaDetailViewController.m in Sources */,
 				A198D8571BE14E5A00542CA5 /* MMAPI.m in Sources */,
 				A198D85A1BE15FAD00542CA5 /* MMMediaItem.m in Sources */,
 				A1920D151BE1491E00251538 /* ViewController.m in Sources */,
